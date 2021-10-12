@@ -20,8 +20,7 @@ public class StaticSample2 {
 
 	// main() method
 	public static void main(String arg[]){
-		
-		
+
 		//static code block sample
 		StaticSample2 temp3  = new StaticSample2(50, 4);
 		System.out.println(temp3.time);

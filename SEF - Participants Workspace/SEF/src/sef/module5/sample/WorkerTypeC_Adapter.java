@@ -1,10 +1,10 @@
 package sef.module5.sample;
 
-public class WorkerTypeB_Adapter implements AdapterInterface {
+public class WorkerTypeC_Adapter implements AdapterInterface {
 
     private Worker worker;
 
-    public WorkerTypeB_Adapter(Worker worker) {
+    public WorkerTypeC_Adapter(Worker worker) {
 
         this.worker = worker;
 
@@ -13,4 +13,5 @@ public class WorkerTypeB_Adapter implements AdapterInterface {
     public void execute() {
         worker.doWork();
     }
+
 }
