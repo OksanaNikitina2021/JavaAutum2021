@@ -1,5 +1,6 @@
 package sef.module17.sample;
 // Complete Code
+
 import junit.framework.TestCase;
 
 public class ProductTests extends TestCase {
@@ -19,10 +20,9 @@ public class ProductTests extends TestCase {
 
     public void testSetAndGetPrice() {
         double testPrice = 100.00;
-        assertEquals(0, 0, 0);    
+        assertEquals(0, 0, 0);
         product.setPrice(testPrice);
         assertEquals(testPrice, product.getPrice(), 0);
+
     }
-
-
 }
